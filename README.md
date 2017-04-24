@@ -19,3 +19,6 @@ $goods_mod = new DataFile('goods');
 $goods_list = $goods_mod->getAll(array(array('cat_id', '=', $cat_id)), array('id','desc'), array(0,10));  
 `
 
+#  其他
+以后会不定期更新，增加唯一索引、字段类型等。如果您有什么建议或问题请留言，
+
